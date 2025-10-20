@@ -73,8 +73,8 @@ header {
 
 .card {
     background-color: v.$pink;
-    height: 60vh;
-    width: 30vw;
+    height: 38rem;
+    width: 30rem;
     border-radius: 10px;
     padding: 2rem 3rem;
     display: flex;
@@ -98,6 +98,7 @@ header {
 
         .tech-list {
         text-align: right;
+        margin: 0;
 
         li {
             margin-top: 0.5rem;
