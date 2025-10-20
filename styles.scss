@@ -1,17 +1,15 @@
-$prim-blue: rgb(16, 16, 81);
-$sec-blue: rgb(21, 21, 183);
-$pink: pink;
+@use "scss/variables" as v;
 
 html,
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, $prim-blue, $sec-blue);
+  background: linear-gradient(to right, v.$prim-blue, v.$sec-blue);
 }
 
 body * {
   box-sizing: border-box;
-  color: $pink;
+  color: v.$pink;
 }
 
 // Utils
@@ -22,12 +20,12 @@ ul {
 
 a {
   text-decoration: none;
-  color: $pink;
+  color: v.$pink;
 }
 
 button {
-  background-color: $pink;
-  color: $prim-blue;
+  background-color: v.$pink;
+  color: v.$prim-blue;
   border-radius: 8px;
 }
 
@@ -61,13 +59,13 @@ header {
 }
 
 .card {
-    background-color: $pink;
+    background-color: v.$pink;
     height: 60vh;
     width: 30vw;
     border-radius: 10px;
 
     * {
-        color: $prim-blue;
+        color: v.$prim-blue;
     }
 
     img {
