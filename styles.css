@@ -43,15 +43,18 @@ header ul {
 
 .section {
   text-align: center;
-  height: 93vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 3px solid green;
 }
 
 .intro {
   height: 95vh;
+}
+
+#projects {
+  height: auto;
 }
 
 .card-container {
@@ -65,7 +68,10 @@ header ul {
   height: 60vh;
   width: 30vw;
   border-radius: 10px;
-  padding: 3rem;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .card * {
   color: rgb(16, 16, 81);
@@ -75,7 +81,8 @@ header ul {
   width: 100%;
 }
 .card-body .text-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-top: 1rem;
 }
 .card-body .text-container .tech-list {
@@ -83,6 +90,13 @@ header ul {
 }
 .card-body .text-container .tech-list li {
   margin-top: 0.5rem;
+}
+
+.card-bottom {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
 }
 
 .contact-list {
