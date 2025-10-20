@@ -5,6 +5,4 @@ add favicon
 
 cv download functionality on button
 
-change color variables
-
 
