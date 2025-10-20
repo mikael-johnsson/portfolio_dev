@@ -103,4 +103,9 @@ header {
 // About page
 
 // Contact page
-
+.contact-list {
+    text-align: left;
+    li {
+        margin-top: 1rem;
+    }
+}

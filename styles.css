@@ -83,4 +83,11 @@ header ul {
 }
 .card-body .text-container .tech-list li {
   margin-top: 0.5rem;
+}
+
+.contact-list {
+  text-align: left;
+}
+.contact-list li {
+  margin-top: 1rem;
 }/*# sourceMappingURL=styles.css.map */
