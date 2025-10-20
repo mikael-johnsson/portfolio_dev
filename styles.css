@@ -1,0 +1,68 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(16, 16, 81), rgb(21, 21, 183));
+}
+
+body * {
+  box-sizing: border-box;
+  color: pink;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: pink;
+}
+
+button {
+  background-color: pink;
+  color: rgb(16, 16, 81);
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+/* Header */
+header {
+  height: 5vh;
+}
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.section {
+  text-align: center;
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid green;
+}
+
+.intro {
+  height: 95vh;
+}
+
+.card {
+  background-color: pink;
+  height: 60vh;
+  width: 30vw;
+  border-radius: 10px;
+}
+.card * {
+  color: rgb(16, 16, 81);
+}
+.card img {
+  width: 20vw;
+}/*# sourceMappingURL=styles.css.map */
