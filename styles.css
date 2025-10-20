@@ -54,15 +54,33 @@ header ul {
   height: 95vh;
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
 .card {
   background-color: pink;
   height: 60vh;
   width: 30vw;
   border-radius: 10px;
+  padding: 3rem;
 }
 .card * {
   color: rgb(16, 16, 81);
 }
-.card img {
-  width: 20vw;
+
+.card-body img {
+  width: 100%;
+}
+.card-body .text-container {
+  display: flex;
+  margin-top: 1rem;
+}
+.card-body .text-container .tech-list {
+  text-align: right;
+}
+.card-body .text-container .tech-list li {
+  margin-top: 0.5rem;
 }/*# sourceMappingURL=styles.css.map */
