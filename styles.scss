@@ -27,6 +27,10 @@ button {
   background-color: v.$pink;
   color: v.$prim-blue;
   border-radius: 8px;
+
+  #download-link {
+    color: v.$prim-blue;
+  }
 }
 
 h1 {

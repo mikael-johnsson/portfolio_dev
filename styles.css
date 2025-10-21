@@ -24,6 +24,9 @@ button {
   color: rgb(16, 16, 81);
   border-radius: 8px;
 }
+button #download-link {
+  color: rgb(16, 16, 81);
+}
 
 h1 {
   font-size: 5rem;
