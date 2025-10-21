@@ -79,6 +79,9 @@ header ul {
   color: rgb(16, 16, 81);
 }
 
+.card-body {
+  flex-basis: 20rem;
+}
 .card-body img {
   width: 100%;
 }
@@ -100,9 +103,10 @@ header ul {
 }
 
 .card-bottom {
-  margin-top: 1rem;
+  flex-basis: 10rem;
   display: flex;
   justify-content: center;
+  align-items: end;
   gap: 3rem;
 }
 

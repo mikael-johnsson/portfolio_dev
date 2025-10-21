@@ -90,6 +90,7 @@ header {
 }
 
 .card-body {
+    flex-basis: 20rem;
   img {
     width: 100%;
   }
@@ -115,9 +116,10 @@ header {
 }
 
 .card-bottom {
-  margin-top: 1rem;
+  flex-basis: 10rem;
   display: flex;
   justify-content: center;
+  align-items: end;
   gap: 3rem;
 }
 
