@@ -53,8 +53,9 @@ header ul {
   margin-top: 40px;
 }
 
-.intro {
+#intro {
   height: 95vh;
+  text-align: center;
 }
 
 #projects {
@@ -98,7 +99,7 @@ header ul {
 }
 .card-body .text-container .tech-list {
   text-align: left;
-  padding-left: 7rem;
+  padding-left: 6rem;
   margin: 0;
 }
 .card-body .text-container .tech-list li {
@@ -115,6 +116,9 @@ header ul {
 
 .about-container {
   width: 45rem;
+}
+.about-container p {
+  line-height: 1.3rem;
 }
 
 .contact-list {
