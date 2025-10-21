@@ -31,6 +31,17 @@ button {
 
 h1 {
     font-size: 5rem;
+    margin-top: -8rem;
+}
+
+// General styles
+.section {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid green;
 }
 
 /* Header */
@@ -43,14 +54,6 @@ header {
     margin-right: 40px;
     margin-top: 40px;
   }
-}
-
-.section {
-  text-align: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 // Intro page 
@@ -66,6 +69,7 @@ header {
 }
 
 .card-container {
+    padding: 5rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
@@ -116,6 +120,9 @@ header {
 }
 
 // About page
+.about-container {
+  width: 45rem;
+}
 
 // Contact page
 .contact-list {

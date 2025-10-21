@@ -27,6 +27,16 @@ button {
 
 h1 {
   font-size: 5rem;
+  margin-top: -8rem;
+}
+
+.section {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid green;
 }
 
 /* Header */
@@ -41,14 +51,6 @@ header ul {
   margin-top: 40px;
 }
 
-.section {
-  text-align: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .intro {
   height: 95vh;
 }
@@ -58,6 +60,7 @@ header ul {
 }
 
 .card-container {
+  padding: 5rem 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
@@ -98,6 +101,10 @@ header ul {
   display: flex;
   justify-content: center;
   gap: 3rem;
+}
+
+.about-container {
+  width: 45rem;
 }
 
 .contact-list {
