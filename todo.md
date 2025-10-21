@@ -4,5 +4,7 @@ add language shift
 
 Fonts
 
-write about text
+hover styling
+
+add live site links to headings and images
 
