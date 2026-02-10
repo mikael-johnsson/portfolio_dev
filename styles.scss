@@ -28,7 +28,8 @@ a {
   }
 }
 
-#download-link {
+#download-link-eng,
+#download-link-swe {
   button {
     background-color: v.$pink;
     color: v.$prim-blue;
@@ -168,6 +169,9 @@ h4 {
   }
 }
 @media screen and (max-width: 1200px) {
+  .section {
+    height: 75vh;
+  }
   .card {
     width: 22rem;
     height: 37rem;
@@ -191,9 +195,6 @@ h4 {
 }
 
 @media screen and (max-width: 991px) {
-  .section {
-    height: 75vh;
-  }
   .card-container {
     display: flex;
     flex-direction: column;

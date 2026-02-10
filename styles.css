@@ -24,13 +24,15 @@ a:hover {
   color: rgb(182, 166, 175);
 }
 
-#download-link button {
+#download-link-eng button,
+#download-link-swe button {
   background-color: rgb(245, 202, 227);
   color: rgb(16, 16, 81);
   border-radius: 6px;
   border: none;
 }
-#download-link button:hover {
+#download-link-eng button:hover,
+#download-link-swe button:hover {
   background-color: rgb(182, 166, 175);
   cursor: pointer;
 }
@@ -150,6 +152,9 @@ h4 {
 }
 
 @media screen and (max-width: 1200px) {
+  .section {
+    height: 75vh;
+  }
   .card {
     width: 22rem;
     height: 37rem;
@@ -168,9 +173,6 @@ h4 {
   }
 }
 @media screen and (max-width: 991px) {
-  .section {
-    height: 75vh;
-  }
   .card-container {
     display: flex;
     flex-direction: column;
